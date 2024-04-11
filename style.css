@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+.corpo{
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 770px;
+    margin-top: 120px; 
+
+}
+
+.img{
+    display: flex;
+    
+
+
+}
+
