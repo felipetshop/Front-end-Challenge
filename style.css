@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
     min-height: 100vh;
     background-color: hsl(235, 18%, 26%);
     font-family: "Roboto" , sans-serif;
@@ -14,7 +15,8 @@ body{
 
 .card{
     display: flex;
-    width: 800px;
+    width: 900px;
+    height: 600px;
     background-color: #fff;
     padding: 20px;
     border-radius: 2rem;
@@ -22,35 +24,43 @@ body{
 }
 
 .left{
-    width: 60%;
+    width: 50%;
+    padding-left: 1.5rem;
+
 }
 
 .right{
-    width: 40%;
+    width: 50%;
+    margin-right: 0;
+
 }
 
 .right img{
     width: 100%;
+    height: 100%
+
 }
 
 ul{
     list-style-image : url("./assets/images/icon-success.svg");
-
+    padding: 1.5rem;
+    
 }  
 
 li{
     margin-bottom: 10px;
+    color:  hsl(234, 29%, 20%);
+
 }
 
 form{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-right: 40px;   
+    padding-right: 60px;   
 }
 
 label{
-    margin-top: 20px;
     font-size: 12px;
     padding-bottom: 9px;
     font-family: inherit;
@@ -85,4 +95,33 @@ button:hover{
     cursor: pointer;
     box-shadow: 0px 15px 8px hsla(4, 100%, 47%, 0.286);
 
+}
+
+h1{
+    font-size: 45px;
+    color: hsl(234, 29%, 20%);
+}
+
+p{
+    font-size: 16px;
+    color:  hsl(234, 29%, 20%);
+}
+
+.card2{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 3.8rem;
+    border-radius: 2rem;
+    width: 480px;
+}
+
+.card2 img{
+    width: 55px;
+}
+
+.information{
+    color:  hsl(234, 29%, 20%);
+    padding-bottom: 1rem;
 }
