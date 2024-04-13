@@ -125,3 +125,17 @@ p{
     color:  hsl(234, 29%, 20%);
     padding-bottom: 1rem;
 }
+
+.btn2{
+    display: flex;
+    width: 100%;
+}
+
+#emailError{
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.2rem;
+}
